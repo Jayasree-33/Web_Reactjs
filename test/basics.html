@@ -1,16 +1,27 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--tells about document is in html5 version-->
 <html>
 <head>
 	<title>Sep15</title>
 </head>
 <body>
-	<h1>Gayatri - Trainer</h1>
-	<h2>Gayatri - Trainer</h2>
+	<h1 style="color: blue">Gayatri - Trainer</h1>
+	<h2 style="background: green;color: white">Gayatri - Trainer</h2>
 	<h3>Gayatri - Trainer</h3>
 	<h4>Gayatri - Trainer</h4>
 	<h5>Gayatri - Trainer</h5>
 	<h6>Gayatri - Trainer</h6>
 	<p>Explains about structure of html and some basics, tags</p>
+	<p>
+		<code><pre>
+			void main()
+			{
+				printf("hai");
+			}
+		
+		</pre></code>
+	</p>
+	<p>H<sub>2</sub>o</p>
+	<p>H<sup>2</sup>o</p>
 	<img src="images/C-205-1.jpg" width="20%" height="10%" alt="basics">&nbsp;&nbsp;<br>
 	<a href="https://github.com/Jayasree-33/WebDesign_react/settings">click</a>
 	<ul>
@@ -68,5 +79,118 @@
 		<td>26</td>
 		</tr>
 		</table>
+		<table border="2">
+    	<tr>
+    		<th>S.no</th>
+    		<th>Name</th>
+    		<th>College</th>
+    		<th>qualification</th>
+    	</tr>
+    	
+    	<tr>
+    		<td>1.</td>
+    		<td>Gayathri</td>
+    		<td>ABC college</td>
+    		<td>M.tech</td>
+    	</tr>
+    	<tr>
+    		<td>2.</td>
+    		<td>Rajesh</td>
+    		<td>ABC college</td>
+    		<td>M.tech</td>
+    	</tr>
+    	<tr>
+    		<td>3.</td>
+    		<td>Surya</td>
+    		<td>XYZ college</td>
+    		<td>M.tech</td>
+    	</tr>
+    </table>
+    <!-- <h2>Trainer details</h2> -->
+    <table border="2" style="background: green;">
+    	<caption>Trainer Details</caption>
+    	<tr>
+    		<th>S.no</th>
+    		<th colspan="2">Name</th>
+    		
+    		<th>qualification</th>
+    	</tr>
+    	
+    	<tr>
+    		<td>1.</td>
+    		<td>Gayathri</td>
+    		<td  rowspan="2">ABC college</td>
+    		<td>M.tech</td>
+    	</tr>
+    	<tr>
+    		<td>2.</td>
+    		<td>Rajesh</td>
+    		
+    		<td>M.tech</td>
+    	</tr>
+    	<tr>
+    		<td>3.</td>
+    		<td>Surya</td>
+    		<td>XYZ college</td>
+    		<td>M.tech</td>
+    	</tr>
+    </table>
+    <!--html form tags-->
+    <form> <!--block level tag-->
+    	<fieldset>
+    			<legend>info</legend>
+    	Username:<br>
+    	<input type="text" name="username" placeholder="enter ur name"><br> <!-- inline tag-->
+    	password:<br>
+    	<input type="password" name="password" placeholder="enter password"><br>
+    	Email:<br>
+    	<input type="email" name="mail"><br>
+    	female:
+    	<input type="radio" name="gender" value="female"  id="female">
+    	male:
+    	<input type="radio" name="gender" value="male" id="male"><br>
+
+    	<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+		<label for="vehicle1"> I have a bike</label><br>
+		<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+		<label for="vehicle2"> I have a car</label><br>
+		<input type="file" name="choose file">
+		<input type="color" name="color">
+		<input type="date" name="date">
+		<textarea rows="12" cols="30">
+			
+		</textarea>
+		<select>
+			<option>12</option>
+			<option>23</option>
+		</select>
+		<input type="submit" name="submit">
+		</fieldset>
+    </form>
+    <h3 style="color: blue;">About div tag</h3>
+    <p style="color: blue;">Div tag act as a container for remaining tags. it is a block level tag, and it a non-schematic tag</p>
+    <div style="color: white;background: blue">
+    	<h3>About div tag</h3>
+    <p>Div tag act as a container for remaining tags</p>
+
+    </div>
+    <hr>
+    <span style="background: red;">span tag- inline tag -- ocupies only the length of the text</span>
+    <div style="background: green;"><p>div - block level tag --- means occupies full width of the browser</p></div>
+    <header>Schematic tags starts from header tag</header>
+    <main>
+    	<h2>in the main tag</h2>
+    	<p>in the main tag -Schematic tag example</p>
+    </main>
+    <footer>footer tag-copyrights</footer>
+    
+    <audio controls style="width: 280px">
+             <source src="https://www.vizagcityonline.com/videoshots/audio.mpeg" type="audio/mpeg">
+              Your browser does not support the audio tag.
+            </audio>
+    <video controls poster="images/C-205-1.jpg">
+          <source src="https://www.vizagcityonline.com/videoshots/videos/navyband.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;" />
+				   
+				  </video>
 </body>
 </html>
