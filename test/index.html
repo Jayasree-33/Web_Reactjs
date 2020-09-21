@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+
+		*{
+			background: #3cca27;
+		}
+		.flex1{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		.flex1 div, p{
+			font-size: 25px;
+			border: 2px dashed #fff;
+			padding: 2% 3% 5% 2%;
+			margin:5%;
+			background: #cdc;
+		}
+		.first{
+			background: #0f0;
+		}
+		h2, p{
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Workshop - Web designing with React Js</h1>
+	<div class="flex1">
+		<p style="order: 2">evening batch</p>
+		<div style="order: 3">sep.14</div>
+		<div style="order: 1">2020</div>
+		<p>4th place</p>
+		<p style="flex-grow:5">5</p>
+		<p style="flex-basis: 50px">6th</p>
+	</div>
+	<div>
+		<h2 id="second">starts from 14th sep</h2>
+	</div>
+</body>
+</html>
