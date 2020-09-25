@@ -1,8 +1,17 @@
 body{
-	background: #fff;
+	background:#f4f4f4!important;
 	font-family: Arial,sans-serif;
 }
-
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #f00;    }
+    49%{    color: #f00; }
+    60%{    color: #00f; }
+    99%{    color:#00f;  }
+    100%{   color: #000;    }
+}
 .basic-info {
   float: left;
   padding: 10px;
@@ -11,11 +20,14 @@ body{
   border: 2px solid #ccc;
   border-radius: 10px;
  
+  outline: 5px solid transparent;
 }
 .basic-info:hover{
-	box-shadow: 3px 3px 3px 3px #ccc;
-	
-
+	/*box-shadow: 3px 3px 3px 3px #ccc;*/
+	background-color: #FBE2A9;
+  border: 5px solid #FFD18F;
+	outline: 5px solid #9E8463;
+  outline-offset: 5px;
 }
 
 .left {
@@ -63,6 +75,9 @@ hr{
 	text-decoration: none;
 	font-weight: bold;
 }
+.basic-info>.table-bordered td, .table-bordered th{
+	border: 1px solid #6c4c2c!important;
+}
 /*mobile view styles*/
 @media only screen and (min-width:320px) and (max-width:480px){
 	#info {
@@ -76,7 +91,7 @@ hr{
 	
 }
 /*tab view*/
-@media only screen and (min-width:481px) and (max-width:720px){
+@media only screen and (min-width:481px) and (max-width:768px){
 	#info {
 		display: inline-block;
 		width: 98%;

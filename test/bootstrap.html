@@ -187,32 +187,79 @@
 	    </form>
 	    <h2>Inline form</h2>
 		<form role="form" class="form-inline"> <!--form is a block level tag-->
-	    	<div class="form-group">
-		    	<label>Email:</label>
-		    	<input type="email" name="mail" class="form-control">
+	    	<div class="form-group m-3">
+		    	<label >Email:</label>
+		    	<input type="email" name="mail" class="form-control ml-2">
 		    </div>
-		    <div class="form-group">
-		    	<label>password:</label>
-		    	<input type="password" name="password" placeholder="enter password" class="form-control">
+		    <div class="form-group m-3">
+		    	<label >password:</label>
+		    	<input type="password" name="password" placeholder="enter password" class="form-control ml-2">
 		    </div>
 	    	<button type="submit" class="btn btn-info">Submit</button>
 			
 	    </form>
 	    <h2>Horizontal form</h2>
 		<form role="form"> <!--form is a block level tag-->
-	    	<div class="form-group">
-		    	<label class="control-label col-lg-2">Email:</label>
-			    <div class="col-lg-10">
-			    	<input type="email" name="mail" placeholder="enterur mail id" class="form-control">
-			    </div>
-		    </div>
-		    <div class="form-group">
-		    	<label>password:</label>
-		    	<input type="password" name="password" placeholder="enter password" class="form-control">
-		    </div>
-	    	<button type="submit" class="btn btn-info btn-block">sign in</button>
 			
+		    	<div class="form-group row">
+			    	<label class="control-label col-lg-2">Email:</label>
+				    <div class="col-lg-10">
+				    	<input type="email" name="mail" placeholder="enterur mail id" class="form-control">
+				    </div>
+			    </div>
+			
+			
+			    <div class="form-group row">
+			    	<label class="col-lg-2 col-md-2 col-sm-5">password:</label>
+			    	<div class="col-lg-10 col-md-10 col-sm-7">
+			    		<input type="password" name="password" placeholder="enter password" class="form-control">
+			    	</div>
+			    </div>
+			
+		    	<button type="submit" class="btn btn-info">sign in</button>
+			</div>
 	    </form>
+	</div>
+	<!-- Bootstrap grid system -->
+	<div class="container">
+		<h3>Bootstrap grid system</h3>
+		<div class="row">
+			<div class="col-md-3 bg-info">
+				First
+			</div>
+			<div class="col-md-3 bg-dark">
+				Second
+			</div>
+			<div class="col-md-3 bg-danger">
+				Third
+			</div>
+			<div class="col-md-3 bg-warning">
+				Fourth
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 bg-info">
+				First
+			</div>
+			<div class="col-md-3 bg-dark">
+				Second
+			</div>
+			<div class="col-md-4 bg-danger">
+				Third
+			</div>
+			<div class="col-md-3 bg-warning">
+				Fourth
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-5 bg-info">
+				First
+			</div>
+			<div class="col-sm-7 bg-dark">
+				Second
+			</div>
+			
+		</div>
 	</div>
 </body>
 </html>

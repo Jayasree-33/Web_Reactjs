@@ -1,0 +1,52 @@
+{
+	"details": {
+		"name": "Jaya",
+		"image": "ram.jpg",
+		"email": "jaya@gmail.com",
+		"number": "+91-9865985986",
+		"address": "Visakhapatnam"
+	},
+
+	"careerobjective": {
+		"information": "To become Full stack developer"
+	},
+
+	"educationalqualifications": [{
+			"institute": "Dr.L.Bullayya College",
+			"degree": "B.Tech",
+			"passoutyear": "2015",
+			"percentage": "88%"
+		},
+		{
+			"institute": "Sri Chaitanya College",
+			"degree": "Intermediate",
+			"passoutyear": "2011",
+			"percentage": "95%"
+		},
+		{
+			"institute": "Sri Satya Sai High School",
+			"degree": "SSC",
+			"passoutyear": "2009",
+			"percentage": "90%"
+		}
+
+	],
+
+	"technicalskills": [{
+			"title": "programming languages",
+			"info": ["C, C++, PHP"]
+
+		},
+		{
+			"title": "Database",
+			"info": ["SQL, MySql"]
+		},
+		{
+			"title": "Operating Systems",
+			"info": ["Windows", "Linux", "Unix"]
+
+		}
+	]
+
+
+}

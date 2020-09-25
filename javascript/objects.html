@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Objects in javascript</title>
+</head>
+<body>
+		<script type="text/javascript">
+			//object literal declaration
+			/*student={
+				id:535,
+				name:"jaya",
+				branch:"cse"
+			}
+			document.writeln(student.id+ " " +student.name+ " " +student.branch);*/
+
+			//object instance declaration using new keyword
+			/*var student=new Object();
+			student.id=543,
+			student.name="jayasree",
+			student.branch="cse"
+			document.writeln(student.id+ " " +student.name+ " " +student.branch);*/
+
+			//object constructor declaration using new keyword
+			function student(id,name,branch){
+				this.id=id;
+				this.name=name;
+				this.branch=branch;
+			}
+			var e=new student(532, "p.j", "CSE");
+			document.writeln(e.id+ " "+e.name+" " +e.branch);
+		</script>
+
+</body>
+</html>
